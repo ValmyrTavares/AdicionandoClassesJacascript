@@ -28,6 +28,7 @@ function validaPaciente(paciente){
    if((paciente.peso<=0)||(paciente.peso>200)){
     paciente.peso = "Peso Inválido";
     paciente.imc = "Imc inválido";
+    paciente.peso.classList.add("mensagem-erro")
     
     
    
