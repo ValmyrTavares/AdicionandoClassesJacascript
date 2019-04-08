@@ -1,0 +1,12 @@
+table, td {
+    border:solid 2px black;
+}
+.mensagem-erro{
+    color:red;
+}
+.nome-paciente{
+    width:100%
+}
+.paciente-geral{
+    height:30px;
+}
